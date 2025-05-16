@@ -97,14 +97,16 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
         <div className="flex items-center mb-4 md:mb-0">
           <span className="text-gray-500 text-sm">
-            ساخته شده با 
-          </span>
+            
+          </span> 
+
           <SiReact className="text-purple-400 mx-2" />
           <SiTailwindcss className="text-blue-400" />
         </div>
         
         <div className="text-gray-500 text-sm">
           © {new Date().getFullYear()} آموزشگاه کد. تمام حقوق محفوظ است.
+          <a href='https://pouyaaref.ir/' >طراحی شده توسط پویا عارف</a>
         </div>
       </div>
     </footer>
