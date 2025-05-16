@@ -5,6 +5,9 @@ import Header from './components/Header'
 import HeroSection from './components/Hero'
 import LearningPath from './components/LearningPath'
 
+import LibraryComponent from './components/LibraryComponent'
+import Footer from './components/Footer'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +17,8 @@ function App() {
     <Header/>
     <HeroSection/>
     <LearningPath/>
+    <LibraryComponent />
+    <Footer />
     </>
   )
 }
