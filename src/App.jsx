@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './components/Header'
 import HeroSection from './components/Hero'
+import LearningPath from './components/LearningPath'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
     <Header/>
     <HeroSection/>
+    <LearningPath/>
     </>
   )
 }

@@ -51,7 +51,7 @@ const HeroSection = () => {
               </motion.div>
               
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight">
-                <span className="text-blue-600">حرفه‌ای</span> برنامه‌نویسی یاد بگیرید
+                <span className="text-blue-600">حرفه‌ای</span> برنامه‌ نویسی یاد بگیرید
               </h1>
               
               <div className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 h-12 flex items-center justify-end">
